@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Delivery Details</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Delivery Details</h2>
+
+      <label>Address</label>
+      <input type="text" placeholder="Enter your address" />
+
+      <label>Delivery Option</label>
+      <select id="deliveryOption" onchange="toggleSchedule()">
+        <option value="now">Deliver Now</option>
+        <option value="schedule">Schedule Delivery</option>
+      </select>
+
+      <div id="scheduleBox" class="hidden">
+        <label>Select Date & Time</label>
+        <input type="datetime-local" />
+      </div>
+
+      <a href="ordering.html" class="btn">Continue</a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

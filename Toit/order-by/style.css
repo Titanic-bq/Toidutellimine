@@ -1,0 +1,290 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff8f0; /* warm crust tone */
+}
+
+/* Container */
+.container {
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+
+/* Headings */
+h1,
+h2 {
+  text-align: center;
+  color: #d84315; /* tomato red */
+}
+
+/* Cards (menu + discounts) */
+.card {
+  background: #ffffff;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 12px;
+  border-left: 5px solid #ff7043; /* pizza sauce accent */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.btn {
+  display: block;
+  text-align: center;
+  background: linear-gradient(135deg, #43a047, #66bb6a); /* green */
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+  opacity: 0.95;
+}
+
+/* Inputs */
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Food list */
+.food-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 12px;
+  border-left: 5px solid #66bb6a; /* basil green */
+}
+
+/* Food images */
+.food-item img {
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+/* Add button */
+.food-item button {
+  background: #d84315;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+/* Hidden section */
+.hidden {
+  display: none;
+}
+
+/* Scrollable menu */
+.scroll {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+/* Intro section */
+.intro {
+  background: #ffe0b2;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* Discounts highlight */
+.discounts h2 {
+  color: #2e7d32; /* basil green */
+}
+/* Green pizza theme */
+.green-theme {
+  background: #e8f5e9; /* light basil */
+}
+
+/* Product detail cards */
+.product-detail {
+  background: white;
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 12px;
+  border-left: 6px solid #2e7d32;
+}
+
+/* Product images */
+.product-detail img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+/* Titles */
+.product-detail h2 {
+  color: #2e7d32;
+}
+
+/* Extra info header */
+.extra-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Arrow button */
+.arrow-btn {
+  background: #e0e0e0;
+  padding: 10px 14px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.arrow-btn:hover {
+  background: #cfcfcf;
+}
+.discount-card {
+  position: relative;
+  margin: 15px 0;
+}
+
+.discount-card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* Text ON TOP of image */
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Food item container */
+.food-item {
+  background: white;
+  border-radius: 15px;
+  margin: 15px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Food image */
+.food-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Bottom overlay */
+.food-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Add button bottom-left */
+.food-info button {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Food name */
+.food-info span {
+  font-weight: bold;
+}
+
+.food-price {
+  color: #2e7d32;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.food-info button:hover {
+  transform: scale(1.05);
+}
+/* Grid container */
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px; /* space between items */
+  margin-top: 20px;
+}
+
+/* Individual product card */
+.food-card {
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Product image */
+.food-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+/* Product name */
+.food-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+/* Product price */
+.food-price {
+  color: #2e7d32;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Add button */
+.food-card button {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.food-card button:hover {
+  transform: scale(1.05);
+}
