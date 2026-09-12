@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "name": "Haamer",
+    "price": 15.99,
+    "category": "Käsitööriistad"
+  },
+  {
+    "id": 2,
+    "name": "Kruvikeeraja",
+    "price": 8.99,
+    "category": "Käsitööriistad"
+  },
+  {
+    "id": 3,
+    "name": "Mutrivõti",
+    "price": 12.5,
+    "category": "Käsitööriistad"
+  },
+  {
+    "id": 4,
+    "name": "Tangid",
+    "price": 10.99,
+    "category": "Käsitööriistad"
+  },
+  {
+    "id": 5,
+    "name": "Akutrell",
+    "price": 69.99,
+    "category": "Elektritööriistad"
+  },
+  {
+    "id": 6,
+    "name": "Ketassaag",
+    "price": 89.99,
+    "category": "Elektritööriistad"
+  },
+  {
+    "id": 7,
+    "name": "Lihvija",
+    "price": 54.99,
+    "category": "Elektritööriistad"
+  },
+  {
+    "id": 8,
+    "name": "Elektriline höövel",
+    "price": 74.9,
+    "category": "Elektritööriistad"
+  },
+  {
+    "id": 9,
+    "name": "Mõõdulint",
+    "price": 6.49,
+    "category": "Tööriistad"
+  },
+  {
+    "id": 10,
+    "name": "Vesilood",
+    "price": 9.99,
+    "category": "Tööriistad"
+  },
+  {
+    "id": 11,
+    "name": "Tööriistakast",
+    "price": 32.9,
+    "category": "Tööriistad"
+  },
+  {
+    "id": 12,
+    "name": "Kuuskantvõtmete komplekt",
+    "price": 14.99,
+    "category": "Tööriistad"
+  },
+  {
+    "id": 13,
+    "name": "Kruvid 4 × 40 mm",
+    "price": 5.49,
+    "category": "Kinnitusvahendid"
+  },
+  {
+    "id": 14,
+    "name": "Puidukruvid 5 × 60 mm",
+    "price": 7.99,
+    "category": "Kinnitusvahendid"
+  },
+  {
+    "id": 15,
+    "name": "Mutrid ja seibid",
+    "price": 6.9,
+    "category": "Kinnitusvahendid"
+  },
+  {
+    "id": 16,
+    "name": "Naelte komplekt",
+    "price": 4.99,
+    "category": "Kinnitusvahendid"
+  },
+  {
+    "id": 17,
+    "name": "Tsement 25 kg",
+    "price": 8.99,
+    "category": "Ehitusmaterjalid"
+  },
+  {
+    "id": 18,
+    "name": "Ehitusvaht",
+    "price": 7.49,
+    "category": "Ehitusmaterjalid"
+  },
+  {
+    "id": 19,
+    "name": "Silikoon",
+    "price": 5.99,
+    "category": "Ehitusmaterjalid"
+  },
+  {
+    "id": 20,
+    "name": "Kipsplaat",
+    "price": 12.5,
+    "category": "Ehitusmaterjalid"
+  },
+  {
+    "id": 21,
+    "name": "Kaitseprillid",
+    "price": 9.99,
+    "category": "Tööohutus"
+  },
+  {
+    "id": 22,
+    "name": "Töökindad",
+    "price": 6.49,
+    "category": "Tööohutus"
+  },
+  {
+    "id": 23,
+    "name": "Kõrvaklapid tööks",
+    "price": 18.99,
+    "category": "Tööohutus"
+  },
+  {
+    "id": 24,
+    "name": "Kaitsekiiver",
+    "price": 14.99,
+    "category": "Tööohutus"
+  },
+  {
+    "id": 25,
+    "name": "Valge seinavärv 2.5 L",
+    "price": 24.9,
+    "category": "Värvid ja viimistlus"
+  },
+  {
+    "id": 26,
+    "name": "Puidulakk 1 L",
+    "price": 17.5,
+    "category": "Värvid ja viimistlus"
+  },
+  {
+    "id": 27,
+    "name": "Pintslite komplekt",
+    "price": 11.99,
+    "category": "Värvid ja viimistlus"
+  },
+  {
+    "id": 28,
+    "name": "Maalriteip",
+    "price": 4.49,
+    "category": "Värvid ja viimistlus"
+  },
+  {
+    "id": 29,
+    "name": "Aialabidas",
+    "price": 19.99,
+    "category": "Aiatarbed"
+  },
+  {
+    "id": 30,
+    "name": "Reha",
+    "price": 16.5,
+    "category": "Aiatarbed"
+  },
+  {
+    "id": 31,
+    "name": "Aiakäärid",
+    "price": 13.99,
+    "category": "Aiatarbed"
+  },
+  {
+    "id": 32,
+    "name": "Kastekann 10 L",
+    "price": 9.9,
+    "category": "Aiatarbed"
+  }
+]
